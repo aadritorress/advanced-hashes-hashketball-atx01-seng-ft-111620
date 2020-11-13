@@ -1,4 +1,6 @@
 # Write your code below game_hash
+require './hashketball.rb'
+require 'pry'
 def game_hash
   {
     home: {
@@ -125,5 +127,24 @@ def game_hash
     }
   }
 end
+  binding.pry
+def num_points_scored(player_name)
+   game_hash.each do |location, team_data|
+    team_data.each do |team_name, data|
+    data.each do |colors, players|
+      
+  end
+end
+end
+end
 
-# Write code here
+  
+  # nba_game = load_library(game_hash)
+  # nba_game.each do |location, informations|
+  #   return points
+  #   player, number, shoe, points, rebounds, assists, steals, blocks, slam_dunks
+  #   if value[:japanese] == emoticon
+  #   return meaning
+  #   end
+  # end
+ 
